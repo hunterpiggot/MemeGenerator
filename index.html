@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <form id="myForm">
+        <div class="row">
+        <span>
+            <input type="text" placeholder="Link to Image" id="link" class="basic-slide">
+            <label for="image">Image URL</label>
+        </span>
+        <span>
+            <input type="text" placeholder="Top Text" id="topText"
+            class="basic-slide">
+            <label for="image">Upper Text</label>
+        </span>
+        <span>
+            <input type="text" placeholder="Bottom Text" id="bottomText"
+            class="basic-slide"">
+            <label for="image">Lower Text</label>
+        </span>
+        <span>
+        <input type="submit" value="Submit" onclick="getInputValue()" id="submitButton" class="btn">
+        <!-- <label for="image">Create the MEME</label> -->
+        </span>
+    </form>
+</div>
+
+    <!-- <br> -->
+    <div id="imgBoard">
+        <h2></h2>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
